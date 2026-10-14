@@ -1,0 +1,1 @@
+from PIL import Image;print('\n'.join(''.join('@%#*+=-:. '[p//32] for p in Image.open(__import__('sys').argv[1]).convert('L').resize((80,40)).getdata())[i:i+80] for i in range(0,3200,80)))
